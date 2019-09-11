@@ -1,0 +1,97 @@
+
+#1- leer el material de la pag
+#2-hacer la autoevaluacion que esta en la pag
+#3- implementar en un archivo de python la clase cola 
+class Cola:
+    def _init_(self) :
+        self.items = []
+
+       def estaVacia(self) :
+           return self.items == []
+
+       def agregar(self,item) :
+           self.items.insert(0,item)
+
+       def avanzar (self) :
+           return self.items.pop() 
+   
+       def tamano (self) :
+           return len(self.items) 
+
+#4- Agregar a la clase pila los siguientes metodos( usando preferentemente los metodos ya utilizados)
+#       1- imprimir cola
+#       2- vaciar cola
+#       3- Dar vuelta cola """
+       def imprimir_cola (self) :
+           print (self.items)
+       
+    def vaciarcola (self) :
+        while not self.estavacia():
+            a=self.avanzar()     
+
+       def darvueltacola(self) :
+           invertir.cola():
+              return 
+c = Cola()
+#5- Escriba una función que reciba una Cola C y mueva sus elementos a una nuevaCola, pero manteniendo el orden de salida de los elementos. Al finalizar la Cola C no debe contener elementos.
+     
+     def recibir_cola(self) :
+          self.items.insertcola(0,item)
+         return self.items == []
+                
+#6- Escriba una rutina que reciba dos Colas C1 y C2 de números enteros y devuelva una nueva Cola con los elementos concatenados en el orden C1 y C2. Es de destacar que las Colas recibidas no deben sufrir ningún tipo de cambio o alteración.
+
+    def recibir_cola(self) :
+       self.items = [1,2]
+       return cola 
+
+#8-Escriba una rutina que reciba dos Colas C1 y C2 de números enteros y proceda a intercambiar sus elementos, pero manteniendo el orden de salida de los mismos. Al finalizar la rutina, la Cola C1 tendrá los elementos de la Cola C2 y esta a su vez tendrá los elementos de la Cola C1.
+
+   def recibir_cola2(self) : 
+       c.agregar = items [1,2]
+       c.avanzar = items [2,1]
+         return cola 
+        
+        
+ #9-Implemente muy simplemente el juego de la silla: Pista use como base esta idea: 
+from pythoned.basicas.cola import Cola
+
+def juegodelasilla(sillas, N):
+    colaSimulacion = Cola()
+    for sillas in listasillas:
+        colaSimulacion.agregar(silla)
+
+    while colaSimulacion.tamano() > 1:
+        for i in range(N):
+            colaSimulacion.agregar(colaSimulacion.avanzar())
+
+        colaSimulacion.avanzar()
+
+    return colaSimulacion.avanzar()
+
+print(juegodelasilla(["1","2","3","4","5","6"],7))
+
+
+#10-De una lista de ejemplos de problemas donde puede usarse una cola como sistema de administración de la información y como podria pensarse un programa pensando estas idea.
+
+#1-el registro, un tipo de estructura que reúne datos que han sido agregados. Con este tipo de estructura lo que hacemos es unificar un valor con otra serie de valores relacionados formando una secuencia.
+#También existe el vector, que concentra elementos dando lugar a una estructura ordenada y relacionada. Sus datos coinciden en formar parte de un tipo concreto y en estar colocados en un orden determinado. Para una mejor facilidad de uso se aplican palabras de memoria que ayudan a su organización, mientras que también hay que tener en cuenta que es factible que los arreglos puedan sufrir cambios de tamaño. De forma derivada el vector asociativo permite que sean eliminados pares nombre-valor dependiendo de las exigencias del programador y del contexto.
+#2-Otro tipo de estructura es la que está representada por la unión, en la cual se unen distintos datos, pero diferenciándose del registro debido a que solo se da cobijo a un valor determinado. En el caso de requerir un campo añadido dentro del registro, se utiliza el término de tipo variante.
+
+# ejemplo administracion de datos de un sistema de reclamos de atencion al cliente
+#registro de datos: 2(direccion)3(telefono)4(nombre)
+
+cola =()
+
+def insertar_datocola(self):
+     c.estavacia ()
+     c.agregar(2) = items [2]
+     c.agregar(3) = items [3,2]
+     c.agregar(4) = items [4,3,2]
+     c.tamaño = 2 
+     return cola 
+
+#para borrar un dato,  o elemento de la cola 
+
+def desencolar(self):
+#Elimina el primer elemento de la cola y devuelve su valor
